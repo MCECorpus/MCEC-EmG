@@ -1,3 +1,5 @@
+![MCEC-EmG | Multilingual College Email Corpus - Email Generator Tool](images/EmG-Logo.png)
+
 # MCEC-EmG | Multilingual College Email Corpus - Email Generator Tool
 
 - [MCEC-EmG | Multilingual College Email Corpus - Email Generator Tool](#mcec-emg--multilingual-college-email-corpus---email-generator-tool)
@@ -24,10 +26,15 @@
 
 Generates and keeps track of MCEC Project emails to participants.
 
+For a video demo you can click on the link below:
+
+[![EmG YouTube Video](images/EmG_Video_Preview.png)](https://youtu.be/qv2vVUeRZNw)
+
 ## Project Organization
     .
     ├── AUTHORS.md
     ├── LICENSE
+    ├── images
     ├── config
     ├── data
     │   ├── external
