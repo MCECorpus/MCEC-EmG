@@ -78,6 +78,7 @@ Follow this instructions to install and run the email_generator module on your c
 # On Windows
 > cd \path\to\email_generator\folder
 > python setup.py develop
+
 # On MacOS
 $ cd /path/to/email_generator/folder
 $ (sudo) python setup.py develop
@@ -89,6 +90,7 @@ $ (sudo) python setup.py develop
 ```bash
 # If your Python command is just `python` do:
 python run.py
+
 # If your Python command is `python3` do:
 python3 run.py
 ```
@@ -99,11 +101,17 @@ python3 run.py
 #### If you have a [`conda` environment](https://realpython.com/effective-python-environment/)
 
 - You probably know how [to run python "from the command line"](https://realpython.com/run-python-scripts/)
-- Create a new conda environment named mcec with python=3.7.6
+- Create a new conda environment named `mcec` with python=3.7.6
 
 ```bash
 # Create a new conda environment named mcec with python=3.7.6
 conda create -n mcec python=3.7.6
+```
+
+- Activate your new environment
+
+```bash
+conda activate mcec
 ```
 
 - Make sure that the `email_generator` software folder is not compressed (unzip it if necessary)
@@ -115,6 +123,7 @@ conda create -n mcec python=3.7.6
 # On Windows
 (mcec) > cd \path\to\email_generator\folder
 (mcec) > python setup.py develop
+
 # On MacOS
 (mcec) $ cd /path/to/email_generator/folder
 (mcec) $ (sudo) python setup.py develop
@@ -143,6 +152,7 @@ To run the program after installation - See: [Installation Instructions](#instal
 # On Windows
 > cd \path\to\email_generator\folder
 > python setup.py develop
+
 # On MacOS
 $ cd /path/to/email_generator/folder
 $ python setup.py develop
@@ -152,9 +162,10 @@ $ python setup.py develop
 
 ```bash
 # If your Python command is just `python` do:
-> python run.py
+python run.py
+
 # If your Python command is `python3` do:
-$ python3 run.py
+python3 run.py
 ```
 
 - You will be able to exit the program at any time by typing `cancel` at any prompt however __your latest progress may not be saved if you exit the program this way__.
@@ -246,7 +257,11 @@ For learning `git flow` you can consult Damian's notes here: https://github.com/
 
 ## Changelog
 
-
+v0.1.0:
+ * First internal release
+ * Project structure using [Reproducible Science cookiecutter](https://github.com/mkrapp/cookiecutter-reproducible-science)
+ * README.md #2, #4, #6
+ * `images/` including `EmG-Logo.png`
 
 ## License
 
