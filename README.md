@@ -272,3 +272,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 __*Progress is saved to a file called `pickled_instructors_<TERMyy>`. Please do not delete this file nor the folder where it is stored until we have aggregated this information to our safe archives.__
 
 The project structure for this repository was generated using the [Reproducible Science cookiecutter boilerplate by Mario Krapp (2016)](https://github.com/mkrapp/cookiecutter-reproducible-science)
+
+------------
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=damian-romero.MCEC-EmG)
